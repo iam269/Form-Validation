@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="icon" type="image/x-icon" href="hand-paper-check.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+            <form id="contactForm" style="max-width:400px;margin:auto;">
+                <label for="fullName">Full Name:</label><br>
+                <input type="text" id="fullName" name="fullName" required><br><br>
+                <label for="phoneNo">Phone No.:</label><br>
+                <input type="tel" id="phoneNo" name="phoneNo" required><br><br>
+                <label for="emailId">Email Id:</label><br>
+                <input type="email" id="emailId" name="emailId" required><br><br>
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <button type="submit">Submit</button>
+            </form>
+    <script src="script.js"></script>
+</body>
+</html>
